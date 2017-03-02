@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Waiting+for+the+Sunrise');
+
+body {
+	background-image: url('images/bg.jpg');
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #002233;
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 5.5em;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+p {
+	text-align: center;
+	font-size: 1.1em;
+	color: white;
+}
+
+footer > p {
+	color: #0086b3;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #0086b3;
+}
+
+a:hover {
+	color: white;
+	opacity: 0.7;
+}
+
+a:active {
+	color: #999999;
+}
+
+svg.icons {
+	fill: #002233;
+	width: 245px;
+	height: 245px;
+}
+
+svg.icons:hover {
+	fill: white;
+}
+
+#container {
+	width: 550px;
+	margin: auto;
+}
+
+#sun-moon, #clouds, #rain-snow, #flower-tree {
+	width: 250px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#sun-moon {
+	margin-bottom: 30px;
+}
+
+#rain-snow {
+	margin-top: 30px;
+}
+
+#clouds {
+	margin: auto;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.icon {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
